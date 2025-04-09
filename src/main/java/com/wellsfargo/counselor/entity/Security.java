@@ -32,7 +32,6 @@ public class Security {
 
     protected Security() {
 
-
     }
 
     public Security(Portfolio portfolio, String name, String category, String purchaseDate, Float purchasePrice, Integer quantity) {
