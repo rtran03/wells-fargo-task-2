@@ -12,7 +12,7 @@ public class Security {
     @GeneratedValue()
     private long securityId;
 
-    @ManyToOne()
+    @ManyToOne
     private Portfolio portfolio;
 
     @Column(nullable = false)

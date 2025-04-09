@@ -10,7 +10,7 @@ public class Client {
     @GeneratedValue()
     private long clientId;
 
-    @ManyToOne()
+    @ManyToOne
     private Advisor advisor;
 
     @Column(nullable = false)

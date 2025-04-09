@@ -10,7 +10,7 @@ public class Portfolio {
     @GeneratedValue()
     private long portfolioId;
 
-    @ManyToOne()
+    @ManyToOne
     private Client client;
 
     @Column(nullable = false)
